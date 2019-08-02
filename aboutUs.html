@@ -39,27 +39,33 @@
 }
 </style>
 <body>
-	<div class="container-fluid" style="background-color: #ffe048;">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12 d-flex justify-content-center">
-				<img th:src="@{/img/A-LOGO-01.png}" height="150px" width="300px" />
+				<img src="./img/A-LOGO-01.png" height="150px" width="300px" />
 			</div>
 		</div>
 		<nav class="navbar navbar-expand-lg sticky-top"
 			style="background-color: black">
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
-				data-target="#navbarsExample08" aria-controls="navbarsExample08"
+				data-target="#navbars08" aria-controls="navbars08"
 				aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
 			<div class="collapse navbar-collapse justify-content-md-center"
-				id="navbarsExample08">
+				id="navbars08">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="/"><font
+					<li class="nav-item"><a class="nav-link" href="index.html"><font
 							color="white"><h5>Trang Chủ</h5></font><span class="sr-only">(current)</span>
 					</a></li>
-					<li class="nav-item"><a class="nav-link" href="/about"><font
+					<li class="nav-item"><a class="nav-link" href="itemList.html"><font
+							color="white"><h5>Danh Sách Sản Phẩm</h5></font><span class="sr-only">(current)</span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" href="stepsDetail.html"><font
+							color="white"><h5>Chi Tiết Các Bước</h5></font><span class="sr-only">(current)</span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" href="aboutUs.html"><font
 							color="white"><h5>Về Chúng Tôi</h5></font></a></li>
 					<li class="nav-item"><a class="nav-link" href="#contact"><font
 							color="white"><h5>Liên Hệ</h5></font></a></li>
@@ -68,7 +74,51 @@
 		</nav>
 
 		<div class="container">
-			<img th:src="@{/img/A-Group-About-Us.jpg}" style="width: 100%;"/>
+			<div class="row" style="margin-top: 20px;">
+				<div class="col-4">
+					<div class="text-center">
+						<h1>TẦM NHÌN</h1>
+					</div>
+					<p><h5>
+					Là đơn vị chuyên cho thuê đạo cụ Team Building, Gala Dinner trong ngành du lịch MICE.
+					</h5></p>
+					<p><h5>
+					Cung cấp các sản phẩm đa dạng, phù hợp với nhu cầu của khách hàng là các doanh nghiệp, đơn vị lữ hành, tổ chức, cá nhân.
+					</h5></p>
+				</div>
+				<div class="col-4">
+					<div class="text-center">
+						<h1>SỨ MỆNH</h1>
+					</div>
+					<p><h5>
+					Đem lại giải pháp tổ chức chương trình tốt nhất cho doanh nghiệp, đơn vị lữ hành, tổ chức, cá nhân.
+					</h5></p>
+				</div>
+				<div class="col-4">
+					<div class="text-center">
+						<h1>GIÁ TRỊ CỐT LÕI</h1>
+					</div>
+					<p><h5>
+					Đem lại giải pháp tổ chức chương trình tốt nhất cho doanh nghiệp, đơn vị lữ hành, tổ chức, cá nhân.
+					</h5></p>
+					<p><h5>
+					Sự hài lòng của khách hàng là sự phấn đấu không ngừng nghỉ của tập thể A-Group.
+					</h5></p>
+					<p><h5>
+					Môi trường thân thiện, phát triển cho nhân viên phát triển nghề nghiệp.
+					</h5></p>
+					<p><h5>
+					Góp ích cho sự phát triển của xã hội.
+					</h5></p>
+				</div>
+			</div>
+
+			<br/>
+			<br/>
+			<h3 id="contact" class="font-weight-light text-center text-lg-left mt-4 mb-0">Thông
+				tin liên hệ</h3>
+			<h5 class="font-weight-light text-center text-lg-left mt-4 mb-0">Dũng
+				Ròm</h5>
 		</div>
 	</div>
 </body>
