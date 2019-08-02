@@ -131,7 +131,7 @@ div.card .card-header-primary {
 }
 
 div.card .card-header-danger {
-	background: linear-gradient(60deg, #ef5350, #d32f2f);
+	background: linear-gradient(60deg, #000000, #000000);
 	box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2), 0 13px 24px -11px
 		rgba(244, 67, 54, .6);
 }
@@ -303,33 +303,40 @@ footer p a:hover {
 	});
 </script>
 <body>
-	<div class="container-fluid" style="background-color: #ffe048;">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-12 d-flex justify-content-center">
-				<img th:src="@{/img/A-LOGO-01.png}" height="150px" width="300px" />
+				<img src="./img/A-LOGO-01.png" height="150px" width="300px" />
 			</div>
 		</div>
 		<nav class="navbar navbar-expand-lg sticky-top"
-			style="background-color: black;">
+			style="background-color: black">
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
-				data-target="#navbarsExample08" aria-controls="navbarsExample08"
+				data-target="#navbars08" aria-controls="navbars08"
 				aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
 			<div class="collapse navbar-collapse justify-content-md-center"
-				id="navbarsExample08">
+				id="navbars08">
 				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="/"><font
+					<li class="nav-item"><a class="nav-link" href="#"><font
 							color="white"><h5>Trang Chủ</h5></font><span class="sr-only">(current)</span>
 					</a></li>
-					<li class="nav-item"><a class="nav-link" href="#"><font
+					<li class="nav-item"><a class="nav-link" href="itemList.html"><font
+							color="white"><h5>Danh Sách Sản Phẩm</h5></font><span class="sr-only">(current)</span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" href="stepsDetail.html"><font
+							color="white"><h5>Chi Tiết Các Bước</h5></font><span class="sr-only">(current)</span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" href="aboutUs.html"><font
 							color="white"><h5>Về Chúng Tôi</h5></font></a></li>
 					<li class="nav-item"><a class="nav-link" href="#contact"><font
 							color="white"><h5>Liên Hệ</h5></font></a></li>
 				</ul>
 			</div>
 		</nav>
+		
 		<div class="container">
 			<div class="col-md-12">
 				<div id="timeline-wrap">
