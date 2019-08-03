@@ -297,6 +297,11 @@ footer p a:hover {
 	top: -25px;
 	left: 97%
 }
+
+.img-thumbnail {
+	width: 100%;
+	height: 240px;
+}
 </style>
 <script>
 	$(function() {
@@ -373,119 +378,395 @@ footer p a:hover {
 						<div class="nav-tabs-navigation">
 							<div class="nav-tabs-wrapper">
 								<ul class="nav nav-tabs" data-tabs="tabs">
-									<li class="nav-item"><a class="nav-link active"
-										id="homelink" href="#home" data-toggle="tab">Tất Cả</a></li>
-									<li class="nav-item"><a class="nav-link" id="updateslink"
-										href="#updates" data-toggle="tab">Danh sách các loại</a></li>
-									<li class="nav-item"><a class="nav-link" id="historylink"
-										href="#history" data-toggle="tab">History</a></li>
+									<li class="nav-item"><a class="nav-link active" id="allitemlink"
+										href="#allitem" data-toggle="tab">Tất Cả</a></li>
+									<li class="nav-item"><a class="nav-link" id="itemlist1link"
+										href="#itemlist1" data-toggle="tab">Phụ Kiện</a></li>
+									<li class="nav-item"><a class="nav-link" id="itemlist2link"
+										href="#itemlist2" data-toggle="tab">Đồ Hơi</a></li>
+									<li class="nav-item"><a class="nav-link" id="itemlist3link"
+										href="#itemlist3" data-toggle="tab">Đạo Cụ Trang Bị</a></li>
+									<li class="nav-item"><a class="nav-link" id="itemlist4link"
+										href="#itemlist4" data-toggle="tab">Đạo Cụ Game</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>
 					<div class="card-body ">
 						<div class="tab-content text-center">
-							<div class="tab-pane active" id="home">
+							<div class="tab-pane active" id="allitem">
 								<div class="row text-center text-lg-left">
+									<!-- Phu kien -->
+									<div class="col-lg-12 col-md-12 col-12"><h3>Phụ Kiện</h3></div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="/itemList?type=all" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+											src="./img/items/phukien/cucxingau.png" alt="" height="250px">
 										</a>
 									</div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+											src="./img/items/phukien/dothanchet.png" alt="">
 										</a>
 									</div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+											src="./img/items/phukien/quacauplasma.png" alt="">
 										</a>
 									</div>
 
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+											src="./img/items/phukien/tocgia.png" alt="">
 										</a>
 									</div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+											src="./img/items/phukien/vonglac.png" alt="">
 										</a>
 									</div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+											src="./img/items/phukien/xonhua.png" alt="">
+										</a>
+									</div>
+									
+									<!-- Do hoi -->
+									<div class="col-lg-12 col-md-12 col-12"><h3>Đồ Hơi</h3></div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="/itemList?type=all" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/dohoi/banhkhonglo.png" alt="" height="250px">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/dohoi/banhyoga.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/dohoi/conghoi.png" alt="">
+										</a>
+									</div>
+
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/dohoi/maybomhoi.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/dohoi/onghoi.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/dohoi/thunhun.png" alt="">
+										</a>
+									</div>
+									
+									<!-- Dao cu trang bi -->
+									<div class="col-lg-12 col-md-12 col-12"><h3>Đạo Cụ Trang Bị</h3></div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="/itemList?type=all" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocutrangbi/aoluoi.png" alt="" height="250px">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocutrangbi/bococanhbuom.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocutrangbi/caygia.png" alt="">
+										</a>
+									</div>
+
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocutrangbi/chanstandee.png" alt="">
+										</a>
+									</div>
+									
+									<!-- Dao cu game -->
+									<div class="col-lg-12 col-md-12 col-12"><h3>Đạo Cụ Game</h3></div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="/itemList?type=all" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/banmecung.png" alt="" height="250px">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/baobo.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/cautritue.png" alt="">
+										</a>
+									</div>
+
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/caybutkhonglo.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/dichuyenbong.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/doigiaytapthe.png" alt="">
+										</a>
+									</div>
+									
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/ganhnuoctapthe.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/mangnuoc.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/nontruyennuoc.png" alt="">
+										</a>
+									</div>
+									
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/ongden.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/thapnuoc.png" alt="">
 										</a>
 									</div>
 								</div>
 							</div>
-							<div class="tab-pane" id="updates">
+							<div class="tab-pane" id="itemlist1">
 								<div class="row text-center text-lg-left">
+									<!-- Phu kien -->
+									<div class="col-lg-12 col-md-12 col-12"><h3>Phụ Kiện</h3></div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="/itemList?type=all" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+											src="./img/items/phukien/cucxingau.png" alt="" height="250px">
 										</a>
 									</div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+											src="./img/items/phukien/dothanchet.png" alt="">
 										</a>
 									</div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+											src="./img/items/phukien/quacauplasma.png" alt="">
 										</a>
 									</div>
 
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+											src="./img/items/phukien/tocgia.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/phukien/vonglac.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/phukien/xonhua.png" alt="">
 										</a>
 									</div>
 								</div>
 							</div>
-							<div class="tab-pane" id="history">
+							<div class="tab-pane" id="itemlist2">
 								<div class="row text-center text-lg-left">
+									<!-- Do hoi -->
+									<div class="col-lg-12 col-md-12 col-12"><h3>Đồ Hơi</h3></div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="/itemList?type=all" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+											src="./img/items/dohoi/banhkhonglo.png" alt="" height="250px">
 										</a>
 									</div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+											src="./img/items/dohoi/banhyoga.png" alt="">
 										</a>
 									</div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+											src="./img/items/dohoi/conghoi.png" alt="">
 										</a>
 									</div>
 
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+											src="./img/items/dohoi/maybomhoi.png" alt="">
 										</a>
 									</div>
 									<div class="col-lg-4 col-md-4 col-6">
 										<a href="#" class="d-block mb-4 h-100"> <img
 											class="img-fluid img-thumbnail"
-											src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+											src="./img/items/dohoi/onghoi.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/dohoi/thunhun.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane" id="itemlist3">
+								<div class="row text-center text-lg-left">
+									<!-- Dao cu trang bi -->
+									<div class="col-lg-12 col-md-12 col-12"><h3>Đạo Cụ Trang Bị</h3></div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="/itemList?type=all" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocutrangbi/aoluoi.png" alt="" height="250px">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocutrangbi/bococanhbuom.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocutrangbi/caygia.png" alt="">
+										</a>
+									</div>
+
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocutrangbi/chanstandee.png" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="tab-pane" id="itemlist4">
+								<div class="row text-center text-lg-left">
+									<!-- Dao cu game -->
+									<div class="col-lg-12 col-md-12 col-12"><h3>Đạo Cụ Game</h3></div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="/itemList?type=all" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/banmecung.png" alt="" height="250px">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/baobo.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/cautritue.png" alt="">
+										</a>
+									</div>
+
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/caybutkhonglo.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/dichuyenbong.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/doigiaytapthe.png" alt="">
+										</a>
+									</div>
+									
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/ganhnuoctapthe.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/mangnuoc.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/nontruyennuoc.png" alt="">
+										</a>
+									</div>
+									
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/ongden.png" alt="">
+										</a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-6">
+										<a href="#" class="d-block mb-4 h-100"> <img
+											class="img-fluid img-thumbnail"
+											src="./img/items/daocugame/thapnuoc.png" alt="">
 										</a>
 									</div>
 								</div>
